@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/gesticula.jpeg" type="image/gif" sizes="16x16">
+    <title>Meeting Minutes</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+        <h2>Game Mechanics</h2>
+        <h3>Oct 1, 2021</h3><hr>
+    </header>
+
+    <!-- Table of Contents -->
+    
+    <nav>
+        <h2>Table of Contents</h2>
+        <ol>
+            <li><em><a href="#agenda">Agenda</a></em></li>
+            <li><em><a href="#lastMeeting">Last Meeting</a></em></li>
+            <li><em><a href="#newMechanics">New Mechanics</a></em></li>
+            <li><em><a href="#demonstrations">Demonstrations</a></em></li>
+            <li><em><a href="#comments">Comments | Questions | Conerns</a></em></li>
+        </ol>
+    </nav><hr>
+
+    <span></span>
+
+    <!-- Agenda Section -->
+    <section id="agenda">
+        <br><h2>Agenda</h2>
+        <p>In today's meeting, the following things need to be discussed: </p>
+        <ul>
+            <li><strong>Lizard: </strong> how lizard works against <b>Rock</b>, <b>Paper</b>, <b>Scissors</b>, and <b>Spock</b></li>
+            <li><strong>Spock: </strong> how spock works against <b>Rock</b>, <b>Paper</b>, <b>Scissors</b>, and <b>Lizard</b></li>
+            <li><em><b>Images: </b></em> how will <i><b>Lizard</b></i> and <i><b>Spock</b></i> look like</li>
+        </ul><br>
+    </section><hr>
+
+    <!-- Last Meeting Section -->
+    <section id="lastMeeting">
+        <br><h2>Last Meeting</h2>
+        <details>
+            <summary>Last meeting we discussed the following: </summary>
+            <div class="rock">
+                <h3>Rock</h3>
+                <ul>
+                    <li><b>Rock</b> <i>beats (smashes)</i> <b>Scissors</b></li>
+                    <li><b>Rock</b> <i>loses against (is covered by)</i> <b>Paper</b></li>
+                </ul>
+                <h4>Image</h4>
+                <img src="images/left-facing-fist.png" alt="image of emoji rock">
+            </div><br><hr>
+            <div class="paper">
+                <h3>Paper</h3>
+                <ul>
+                    <li><b>Paper</b> <i>beats (covers)</i> <b>Rock</b></li>
+                    <li><b>Paper</b> <i>loses against (is cut by)</i> <b>Scissors</b></li>
+                </ul>
+                <h4>Image</h4>
+                <img src="images/Raised_Hand_With_Fingers_Splayed_Emoji_Icon_ios10_large.png" alt="image of emoji paper">
+            </div><br><hr>
+            <div class="scissors">
+                <h3>Scissors</h3>
+                <ul>
+                    <li><b>Scissors</b> <i>beats (cuts)</i> <b>Paper</b></li>
+                    <li><b>Scissors</b> <i>loses against (is smashed by)</i> <b>Rock</b></li>
+                </ul>
+                <h4>Image</h4>
+                <img src="images/victory-hand.png" alt="image of emoji scissors">
+            </div><br>
+        </details><br><br>
+    </section><hr>
+
+    <!-- New MechanicsSection -->
+    <section id="newMechanics">
+        <br><h2>New Mechanics</h2>
+        <div class="lizard">
+            <h3>Lizard</h3>
+            <ul>
+                <li><b>Lizard</b> <i>beats (poisons)</i> <b>Spock</b></li>
+                <li><b>Lizard</b> <i>beats (eats)</i> <b>Paper</b></li>
+                <li><b>Lizard</b> <i>loses against (is smashes by)</i> <b>Rock</b></li>
+                <li><b>Lizard</b> <i>loses against (is decapitated by)</i> <b>Scissors</b></li>
+            </ul>
+            <h4>Image</h4>
+            <img src="images/pinching-hand_1f90f.png" alt="image of emoji lizard">
+        </div><br><hr>
+        <div class="spock">
+            <h3>Spock</h3>
+            <ul>
+                <li><b>Spock</b> <i>beats (vaporizes)</i> <b>Rock</b></li>
+                <li><b>Spock</b> <i>beats (smashes)</i> <b>Scissors</b></li>
+                <li><b>Spock</b> <i>loses against (is disproved by)</i> <b>Paper</b></li>
+                <li><b>Spock</b> <i>loses against (is poisoned by)</i> <b>Lizard</b></li>
+            </ul>
+            <h4>Image</h4>
+            <img src="images/vulcan-salute-facebook.png" alt="image of emoji spock">
+        </div><br><br>
+    </section><hr>
+
+    <!-- Last Meeting Section -->
+    <section id="demonstrations">
+        <h2>Demonstrations</h2>
+        <audio controls>
+            <source src="images/demonstrations/demonstrationAudio.mp3" type="audio/mp3">
+        </audio>
+        <video width="320" height="240" controls>
+            <source src="images/demonstrations/demonstrationVideo.mp4" type="video/mp4">
+        </video>
+    </section><hr>
+
+    <!-- Comments Section -->
+    <section id="comments">
+        <h2>Comments | Questions | Conerns</h2>
+        <button>Comments</button>
+        <button>Questions</button>
+        <button>Concerns</button>
+        <form>
+            <fieldset>
+                <legend>Comments</legend>
+                <label for="name">Name: </label><br>
+                <input type="text" id="name" name="name"><br>
+                
+                <label for="comment">Comment: </label><br>
+                <textarea id="comment" name="comment" rows="5" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="subjectQ">Subject: </label><br>
+                <input list="subjects" id="subjectQ" name="subjectQ"><br>
+                <datalist id="subjects">
+                    <option value="This Meeting">
+                    <option value="Last Meeting">
+                    <option value="Other">
+                </datalist>
+                
+                <label for="questions">Question: </label><br>
+                <textarea id="questions" name="questions" rows="5" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+
+            <fieldset>
+                <legend>Concerns</legend>
+                <label for="subjectsC">Subject: </label><br>
+                <select name="subjectsC" id="subjectsC">
+                    <option value="This Meeting">This Meeting</option>
+                    <option value="Last Meeting">Last Meeting</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br><br>
+                
+                <label for="concern">Concern: </label><br>
+                <textarea id="concern" name="concern" rows="5" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+
+            <fieldset>
+                <legend>Survey</legend>
+                
+                <input type="date" id="hangout" value="2021-10-01" min="2021-10-01" max="2021-10-30"><br>
+
+                
+                <input type="radio" name="activity" id="barbq" value="barbq" checked>
+                <label for="barbq">Bar-B-Q</label><br>
+                <input type="radio" name="activity" id="park" value="park" >
+                <label for="park">Park</label><br>
+                <input type="radio" name="activity" id="movies" value="movies" >
+                <label for="movies">Movies</label><br>
+
+                
+                <input type="checkbox" name="snacks" id="doritos" value="doritos">
+                <label for="doritos">Doritos</label>
+                <input type="checkbox" name="snacks" id="fruits" value="fruits">
+                <label for="doritos">Fruits</label><br>
+                
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section><hr>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
