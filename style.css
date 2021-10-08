@@ -4,6 +4,7 @@
 /* Universals */
 *{
     text-transform: uppercase;
+    position: static;
 }
 
 html{
@@ -29,15 +30,32 @@ img{
     max-height: 50%;
     max-width: 50%;
 }
+img:hover{
+    background-color: #8D99AE;
+    transition: 1s;
+}
+img:active{
+    background-color: #EF233C;
+}
+
+audio{
+    position: absolute;
+    right: 0;
+}
+
 video{
     max-height: 50%;
     max-width: auto;
+    border-radius: 10px;
 }
-
+ul[type="a"]{
+    background: white;
+}
 
 /* Header Section */
 header{
     padding: 2em;
+    position: static;
 }
 .title{
     font-size: 3em;
@@ -79,6 +97,7 @@ nav{
     font-size: 1.2em;
 }
 
+
 /* Agenda Section */
 #agenda{
     padding: 30px;
@@ -86,11 +105,30 @@ nav{
 }
 
 /* Last Meeting Section */
-#lastMeeting{
+#last-meeting{
     display: none;
 }
 
 /* New Mechanics Section */
+#new-mechanics, #demonstrations, #comments{
+    padding: 1.5em;
+}
+.lizard > ul, .spock > ul{
+    background: white;
+}
+.win ~ .lose{
+    background-color: rgba(255, 0, 0, .3);
+}
+.win{
+    background-color: rgba(0, 255, 0, .3);
+}
+.lizard-title + ul, .spock-title + ul{
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+.image.title{
+    font-size: 1.5em;
+    letter-spacing: .15em;
+}
 
 .lizard, .spock{
     display: inline-block;
@@ -103,4 +141,11 @@ nav{
     grid-template-columns: repeat(2, 40%);
     grid-template-rows: repeat(2, 50%);
     grid-gap: 20px;
+}
+
+@media only screen and (max-width: 480px){
+    #new-mechanics, #demonstrations, #comments{
+        padding: 2em;
+    }
+    
 }
