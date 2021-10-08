@@ -1,0 +1,62 @@
+/* Imports  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+/* Universals */
+*{
+    text-transform: uppercase;
+}
+
+html{
+    background-color: #2b2d42;
+}
+
+hr{
+    color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: rgba(255, 255, 255, .9);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Header Section */
+header{
+    padding: 2em;
+}
+.title{
+    font-size: 3em;
+}
+.sub-title, .date{
+    color: #D90429;
+    text-decoration: underline;
+}
+.title, .sub-title, .date{
+    letter-spacing: .1em;
+}
+
+/* Table of Contents Section  */
+nav{
+    padding-top: 2em;
+}
+.table-of-contents{
+    text-align: center;
+    font-size: 2em;
+    padding: 0;
+}
+.table-of-contents-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: #8D99AE;
+    padding: 20px 0px 20px 0px;
+    border: 1px solid white;
+}
+.table-of-contents-list li a{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
