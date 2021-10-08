@@ -142,6 +142,27 @@ nav{
     grid-template-rows: repeat(2, 50%);
     grid-gap: 20px;
 }
+form{
+    margin: auto;
+}
+form legend, form label{
+    color: hsl(0, 100%, 100%);
+}
+legend{
+    padding-left: 10px; 
+    padding-right: 10px;
+    letter-spacing: .1em;
+}
+input[type="submit"]{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    padding-right: 50px; 
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px auto;
+}
 
 @media only screen and (max-width: 480px){
     #new-mechanics, #demonstrations, #comments{
