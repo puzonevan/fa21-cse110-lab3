@@ -1,2 +1,2 @@
 # Link to Github Pages 
-[Lab 2](https://puzonevan.github.io/Lab-2-CSE-110-Fall-2021/)
+[Lab 3](https://puzonevan.github.io/fa21-cse110-lab3/)
