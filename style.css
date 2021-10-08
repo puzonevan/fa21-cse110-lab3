@@ -14,10 +14,26 @@ hr{
     color: #FFFFFF;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, p{
     color: rgba(255, 255, 255, .9);
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+strong, b, i, em{
+    color: #D90429;
+}
+
+img{
+    height: 5em;
+    width: auto;
+    max-height: 50%;
+    max-width: 50%;
+}
+video{
+    max-height: 50%;
+    max-width: auto;
+}
+
 
 /* Header Section */
 header{
@@ -47,6 +63,8 @@ nav{
     display: flex;
     list-style: none;
     justify-content: space-around;
+    align-content: center;
+    flex-flow: row wrap;
     background-color: #8D99AE;
     padding: 20px 0px 20px 0px;
     border: 1px solid white;
@@ -59,4 +77,30 @@ nav{
     color: white;
     letter-spacing: 1px;
     font-size: 1.2em;
+}
+
+/* Agenda Section */
+#agenda{
+    padding: 30px;
+    display: block;
+}
+
+/* Last Meeting Section */
+#lastMeeting{
+    display: none;
+}
+
+/* New Mechanics Section */
+
+.lizard, .spock{
+    display: inline-block;
+    width: 40%;
+}
+
+/* Forms Section */
+.forms{
+    display: grid; 
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: repeat(2, 50%);
+    grid-gap: 20px;
 }

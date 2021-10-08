@@ -27,20 +27,20 @@
             <li><em><a href="#demonstrations">Demonstrations</a></em></li>
             <li><em><a href="#comments">Comments | Questions | Conerns</a></em></li>
         </ol>
-    </nav><hr>
+    </nav>
 
     <span></span>
 
     <!-- Agenda Section -->
     <section id="agenda">
-        <br><h2>Agenda</h2>
+        <h2>Agenda</h2>
         <p>In today's meeting, the following things need to be discussed: </p>
         <ul>
             <li><strong>Lizard: </strong> how lizard works against <b>Rock</b>, <b>Paper</b>, <b>Scissors</b>, and <b>Spock</b></li>
             <li><strong>Spock: </strong> how spock works against <b>Rock</b>, <b>Paper</b>, <b>Scissors</b>, and <b>Lizard</b></li>
             <li><em><b>Images: </b></em> how will <i><b>Lizard</b></i> and <i><b>Spock</b></i> look like</li>
-        </ul><br>
-    </section><hr>
+        </ul>
+    </section>
 
     <!-- Last Meeting Section -->
     <section id="lastMeeting">
@@ -79,7 +79,7 @@
 
     <!-- New MechanicsSection -->
     <section id="newMechanics">
-        <br><h2>New Mechanics</h2>
+        <h2>New Mechanics</h2>
         <div class="lizard">
             <h3>Lizard</h3>
             <ul>
@@ -90,7 +90,7 @@
             </ul>
             <h4>Image</h4>
             <img src="images/pinching-hand_1f90f.png" alt="image of emoji lizard">
-        </div><br><hr>
+        </div>
         <div class="spock">
             <h3>Spock</h3>
             <ul>
@@ -101,7 +101,7 @@
             </ul>
             <h4>Image</h4>
             <img src="images/vulcan-salute-facebook.png" alt="image of emoji spock">
-        </div><br><br>
+        </div>
     </section><hr>
 
     <!-- Last Meeting Section -->
@@ -121,46 +121,52 @@
         <button>Comments</button>
         <button>Questions</button>
         <button>Concerns</button>
-        <form>
-            <fieldset>
-                <legend>Comments</legend>
-                <label for="name">Name: </label><br>
-                <input type="text" id="name" name="name"><br>
-                
-                <label for="comment">Comment: </label><br>
-                <textarea id="comment" name="comment" rows="5" cols="50"></textarea><br>
-                <input type="submit" value="Submit">
-            </fieldset>
+        <form class="forms">
+            <div class="form">
+                <fieldset>
+                    <legend>Comments</legend>
+                    <label for="name">Name: </label><br>
+                    <input type="text" id="name" name="name"><br>
+                    
+                    <label for="comment">Comment: </label><br>
+                    <textarea id="comment" name="comment" rows="5" cols="50"></textarea><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </div>
 
-            <fieldset>
-                <legend>Questions</legend>
-                <label for="subjectQ">Subject: </label><br>
-                <input list="subjects" id="subjectQ" name="subjectQ"><br>
-                <datalist id="subjects">
-                    <option value="This Meeting">
-                    <option value="Last Meeting">
-                    <option value="Other">
-                </datalist>
-                
-                <label for="questions">Question: </label><br>
-                <textarea id="questions" name="questions" rows="5" cols="50"></textarea><br>
-                <input type="submit" value="Submit">
-            </fieldset>
+            <div class="form">
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="subjectQ">Subject: </label><br>
+                    <input list="subjects" id="subjectQ" name="subjectQ"><br>
+                    <datalist id="subjects">
+                        <option value="This Meeting">
+                        <option value="Last Meeting">
+                        <option value="Other">
+                    </datalist>
+                    
+                    <label for="questions">Question: </label><br>
+                    <textarea id="questions" name="questions" rows="5" cols="50"></textarea><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </div>
 
-            <fieldset>
-                <legend>Concerns</legend>
-                <label for="subjectsC">Subject: </label><br>
-                <select name="subjectsC" id="subjectsC">
-                    <option value="This Meeting">This Meeting</option>
-                    <option value="Last Meeting">Last Meeting</option>
-                    <option value="Other">Other</option>
-                </select>
-                <br><br>
-                
-                <label for="concern">Concern: </label><br>
-                <textarea id="concern" name="concern" rows="5" cols="50"></textarea><br>
-                <input type="submit" value="Submit">
-            </fieldset>
+            <div class="form">
+                <fieldset>
+                    <legend>Concerns</legend>
+                    <label for="subjectsC">Subject: </label><br>
+                    <select name="subjectsC" id="subjectsC">
+                        <option value="This Meeting">This Meeting</option>
+                        <option value="Last Meeting">Last Meeting</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br><br>
+                    
+                    <label for="concern">Concern: </label><br>
+                    <textarea id="concern" name="concern" rows="5" cols="50"></textarea><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </div>
 
             <fieldset>
                 <legend>Survey</legend>
@@ -184,7 +190,7 @@
                 <input type="submit" value="Submit">
             </fieldset>
         </form>
-    </section><hr>
+    </section>
 
     <footer>
 
